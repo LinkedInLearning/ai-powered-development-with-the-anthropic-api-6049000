@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asian Cuisine Meal Plan</title>
+    <style>
+        :root {
+            --primary-color: #e74c3c;
+            --background-color: #f9f9f9;
+            --text-color: #333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+
+        .day-card {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .day-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .day-header {
+            color: var(--primary-color);
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .dish-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .description {
+            color: #666;
+            font-size: 1em;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .day-card {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Asian Cuisine Meal Plan</h1>
+
+        <div class="day-card">
+            <h2 class="day-header">Day 1 (第一天)</h2>
+            <div class="dish-name">Dim Sum (点心)</div>
+            <p class="description">A traditional Cantonese brunch consisting of small portions of steamed dumplings, buns, and other delicacies served in bamboo baskets. Each piece is meticulously crafted, featuring ingredients like shrimp, pork, and various vegetables, reflecting the refined techniques of Cantonese cuisine.</p>
+        </div>
+
+        <div class="day-card">
+            <h2 class="day-header">Day 2 (第二天)</h2>
+            <div class="dish-name">Pho (Phở)</div>
+            <p class="description">An iconic Vietnamese noodle soup featuring rice noodles in a clear, aromatic broth made from beef bones, star anise, and ginger. Traditionally served with herbs, bean sprouts, and lime, this comfort food originated in early 20th century Vietnam and represents the country's French-Asian fusion heritage.</p>
+        </div>
+
+        <div class="day-card">
+            <h2 class="day-header">Day 3 (第三天)</h2>
+            <div class="dish-name">Bibimbap (비빔밥)</div>
+            <p class="description">A Korean rice dish served in a hot stone bowl (dolsot) topped with sautéed vegetables, gochujang (red chili paste), a raw egg, and optional meat. The dish's name literally means "mixed rice," and its colorful presentation represents the harmony of five colors important in Korean culture.</p>
+        </div>
+
+        <div class="day-card">
+            <h2 class="day-header">Day 4 (第四天)</h2>
+            <div class="dish-name">Sushi (寿司)</div>
+            <p class="description">Japanese vinegared rice combined with fresh fish, seafood, or vegetables, showcasing the essence of Japanese cuisine's precision and simplicity. Originally developed as a preservation method, sushi has evolved into an art form that emphasizes seasonal ingredients and aesthetic presentation.</p>
+        </div>
+
+        <div class="day-card">
+            <h2 class="day-header">Day 5 (第五天)</h2>
+            <div class="dish-name">Pad Thai (ผัดไทย)</div>
+            <p class="description">A stir-fried rice noodle dish that combines sweet, sour, and umami flavors through tamarind paste, fish sauce, dried shrimp, and palm sugar. Created in the 1930s as part of Thailand's nationalist campaign, it has become one of the most recognized Thai dishes globally.</p>
+        </div>
+
+        <div class="day-card">
+            <h2 class="day-header">Day 6 (第六天)</h2>
+            <div class="dish-name">Laksa (叻沙)</div>
+            <p class="description">A spicy noodle soup from the Peranakan culture, combining Chinese and Malay influences. The rich coconut curry broth is loaded with rice noodles, seafood or chicken, and garnished with Vietnamese mint and sambal, representing the diverse cultural heritage of Southeast Asia.</p>
+        </div>
+
+        <div class="day-card">
+            <h2 class="day-header">Day 7 (第七天)</h2>
+            <div class="dish-name">Xiaolongbao (小笼包)</div>
+            <p class="description">Delicate Shanghai-style soup dumplings filled with pork and flavorful broth that liquefies when steamed. Each dumpling requires exceptional skill to create, with the thin wrapper holding the soup without breaking, demonstrating the sophistication of Chinese culinary techniques.</p>
+        </div>
+    </div>
+</body>
+</html>
