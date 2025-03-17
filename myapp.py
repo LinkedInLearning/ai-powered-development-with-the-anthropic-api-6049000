@@ -1,9 +1,10 @@
 import anthropic
+from dotenv import load_dotenv
 
-client = anthropic.Anthropic(
-    # defaults to os.environ.get("ANTHROPIC_API_KEY")
-    api_key="",
-)
+load_dotenv()
+
+client = anthropic.Anthropic()
+user_message = input("Enter your message to Claude: ")
 
 message = client.messages.create(
     model="claude-3-5-sonnet-20241022",
@@ -12,8 +13,9 @@ message = client.messages.create(
     messages=[
         {
             "role": "user",
-            "content": "Tell me what the days of the week are"
+            "content": user_message
         }
     ]
 )
+print("\nClaude's response:")
 print(message.content[0].text)
