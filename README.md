@@ -5,6 +5,8 @@ This is the repository for the LinkedIn Learning course `AI-Powered Development 
 
 ## Course Description
 
+AI APIs provide powerful ways to build intelligent applications, but leveraging them effectively requires skillful prompt engineering and API knowledge. In this course, you'll gain hands-on experience with API requests, learn best practices for structuring prompts, and compare AI model capabilities. Learn to integrate AI into your development workflow.
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -26,17 +28,18 @@ To resolve this issue:
 
 ## Instructor
 
-Instructor name
+Ray Villalobos
 
-Instructor description
+Senior Staff Instructor at LinkedIn Learning
+
 
                             
 
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/).
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ray-villalobos?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
 [lil-course-url]: https://www.linkedin.com/learning/ai-powered-development-with-the-anthropic-api-asi
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4D0DAQGzOy9yRsnFdw/learning-public-crop_675_1200/B4DZWrogsBHAAY-/0/1742341279285?e=2147483647&v=beta&t=MvR2aE21YHVAIVuxt2pezDXyPUMSZMwSKaxUfHJKZMM
 
